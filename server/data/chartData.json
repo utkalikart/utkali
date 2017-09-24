@@ -1,1 +1,298 @@
+{
+  "name": "Clinical",
+  "children": [
+    {
+      "name": "General",
+      "children": [
+        {
+          "name": "AllergyIntolerance",
+          "children": [
+            {"name": " Identifier", "size": 3938},
+            {"name": "onset", "size": 3812},
+            {"name": "recordedDate", "size": 6714},
+            {"name": "recorder", "size": 743},
+            {"name": "patient", "size": 743},
+            {"name": "reporter", "size": 743},
+            {"name": "substance", "size": 743},
+            {"name": "status", "size": 743},
+            {"name": "criticality", "size": 743},
+            {"name": "type", "size": 743},
+            {"name": "category", "size": 743},
+            {"name": "lastOccurence", "size": 743},
+            {"name": "note", "size": 743},
+            {
+              "name": "reaction",
+              "children":[
+                {"name": "substance", "size": 743},
+                {"name": "certainty", "size": 743},
+                {"name": "manifestation", "size": 743},
+                {"name": "description", "size": 743},
+                {"name": "onset", "size": 743},
+                {"name": "severity", "size": 743},
+                {"name": "exposureRoute", "size": 743}
+              ]
+            }
+          ]
 
+        },
+        {
+          "name": "Condition",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "Procedure",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 7074}
+          ]
+        },
+        {
+          "name": "ClinicalImpression",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "FamilyMemberHistory",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "RiskAssessment",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "DetectedIssue",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Care Provision",
+      "children": [
+        {
+          "name": "CarePlan",
+          "children": [
+            {"name": "AgglomerativeCluster", "size": 3938},
+            {"name": "CommunityStructure", "size": 3812},
+            {"name": "HierarchicalCluster", "size": 6714},
+            {"name": "MergeEdge", "size": 743}
+          ]
+        },
+        {
+          "name": "Goal",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "ReferralRequest",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 7074}
+          ]
+        },
+        {
+          "name": "ProcedureRequest",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "NutritionOrder",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "VisionPrescription",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        }
+
+      ]
+    },
+    {
+      "name": "Medication & Immunization:",
+      "children": [
+        {
+          "name": "Medication",
+          "children": [
+            {"name": "AgglomerativeCluster", "size": 3938},
+            {"name": "CommunityStructure", "size": 3812},
+            {"name": "HierarchicalCluster", "size": 6714},
+            {"name": "MergeEdge", "size": 743}
+          ]
+        },
+        {
+          "name": "MedicationOrder",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "MedicationAdministration",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 7074}
+          ]
+        },
+        {
+          "name": "MedicationDispense",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "MedicationStatement",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "Immunization",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "ImmunizationRecommendation",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diagnostics",
+      "children": [
+        {
+          "name": "Observation",
+          "children": [
+            {"name": "AgglomerativeCluster", "size": 3938},
+            {"name": "CommunityStructure", "size": 3812},
+            {"name": "HierarchicalCluster", "size": 6714},
+            {"name": "MergeEdge", "size": 743}
+          ]
+        },
+        {
+          "name": "DiagnosticReport",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "DiagnosticOrder",
+          "children": [
+            {"name": "AspectRatioBanker", "size": 7074}
+          ]
+        },
+        {
+          "name": "Specimen",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "BodySite",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "ImagingStudy",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        },
+        {
+          "name": "ImagingObjectSelection",
+          "children": [
+            {"name": "BetweennessCentrality", "size": 3534},
+            {"name": "LinkDistance", "size": 5731},
+            {"name": "MaxFlowMinCut", "size": 7840},
+            {"name": "ShortestPaths", "size": 5914},
+            {"name": "SpanningTree", "size": 3416}
+          ]
+        }
+      ]
+    }
+  ]
+}
