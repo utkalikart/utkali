@@ -1,0 +1,32 @@
+{
+  "name": "scaffold",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": ">=1.5.6",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.0.1",
+    "bootstrap-sass-official": "~3.1.1",
+    "bootstrap": "^3.3.7",
+    "angular-resource": ">=1.2.*",
+    "angular-cookies": ">=1.2.*",
+    "angular-sanitize": ">=1.2.*",
+    "angular-bootstrap": "~0.11.0",
+    "font-awesome": ">=4.1.0",
+    "lodash": "~2.4.1",
+    "angular-ui-router": "~0.2.15",
+    "d3": "npm:d3#^3.0.0",
+    "tc-angular-chartjs": "npm:tc-angular-chartjs#^1.0.9",
+    "navgoco": "0.2.1",
+    "angular-datatables": "0.5.6",
+    "velocity": "^1.4.3",
+    "datatables-light-columnfilter": "^1.0.3",
+    "angularjs-gauge": "^2.1.0",
+    "angular-tek-progress-bar": "^0.2.0",
+    "angularjs-slider": "^6.4.0",
+    "angularjs-datepicker": "^2.1.23"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.2.*",
+    "angular-scenario": ">=1.2.*"
+  }
+}
